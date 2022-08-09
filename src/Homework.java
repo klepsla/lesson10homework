@@ -1,4 +1,5 @@
 import java.sql.SQLOutput;
+import java.util.Objects;
 
 public class Homework {
 
@@ -13,5 +14,9 @@ public class Homework {
      System.out.println(warAndPeace);
      System.out.println(michailBulgakov);
      System.out.println(masterAndMargarita);
+     System.out.println(warAndPeace.hashCode());
+     System.out.println(masterAndMargarita.hashCode());
+     System.out.println(levTolstoy.equals(michailBulgakov));
+     System.out.println(warAndPeace.equals(masterAndMargarita));
     }
 }
